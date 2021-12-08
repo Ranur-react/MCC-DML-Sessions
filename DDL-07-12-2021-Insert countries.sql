@@ -1,0 +1,17 @@
+insert  into tb_m_countries(id,name,id_region) values 
+('034','Afghanistan','034'),
+('036','Australia','053'),
+('050','Bangladesh','034'),
+('060','Bermuda','021'),
+('064','Bhutan','034'),
+('124','Canada','021'),
+('304','Greenland','021'),
+('356','India','034'),
+('360','Indonesia','035'),
+('364','Iran (Islamic Republic of)','034'),
+('434','Libya','015'),
+('504','Morocco','015'),
+('574','Norfolk Island','053'),
+('666','Saint Pierre and Miquelon','021'),
+('818','Egypt','015'),
+('840','United States of America','021');
