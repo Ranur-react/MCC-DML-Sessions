@@ -25,7 +25,7 @@ ALTER TRIGGER [dbo].[tri_update_job_within_history]
    ON   [dbo].[tb_m_employees]
    AFTER UPDATE
 AS 
-IF(UPDATE([id_job]))
+
 BEGIN
 
 	declare @id_job_before as  varchar(10);
