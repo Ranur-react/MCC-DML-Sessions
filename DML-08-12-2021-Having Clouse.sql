@@ -32,7 +32,10 @@ having
 
 select 
 	count(*) as jumlah_job 
-from tb_m_jobs as j
-group by j.min_sallary
-having count(*) > 1
+from 
+	tb_m_jobs as j
+group by 
+	j.min_sallary
+having 
+	count(*) > 1
 ;
